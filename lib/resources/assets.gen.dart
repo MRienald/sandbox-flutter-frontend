@@ -24,17 +24,49 @@ class $LibResourcesGen {
 class $LibResourcesImagesGen {
   const $LibResourcesImagesGen();
 
+  /// File path: lib/resources/images/ic-phone-call.png
+  AssetGenImage get icPhoneCall =>
+      const AssetGenImage('lib/resources/images/ic-phone-call.png');
+
+  /// File path: lib/resources/images/ic_email.png
+  AssetGenImage get icEmail =>
+      const AssetGenImage('lib/resources/images/ic_email.png');
+
+  /// File path: lib/resources/images/ic_facebook.png
+  AssetGenImage get icFacebook =>
+      const AssetGenImage('lib/resources/images/ic_facebook.png');
+
+  /// File path: lib/resources/images/ic_instagram.png
+  AssetGenImage get icInstagram =>
+      const AssetGenImage('lib/resources/images/ic_instagram.png');
+
   /// File path: lib/resources/images/ic_lamp.png
   AssetGenImage get icLamp =>
       const AssetGenImage('lib/resources/images/ic_lamp.png');
+
+  /// File path: lib/resources/images/ic_linkedin.png
+  AssetGenImage get icLinkedin =>
+      const AssetGenImage('lib/resources/images/ic_linkedin.png');
+
+  /// File path: lib/resources/images/ic_location.png
+  AssetGenImage get icLocation =>
+      const AssetGenImage('lib/resources/images/ic_location.png');
 
   /// File path: lib/resources/images/ic_pie_chart.png
   AssetGenImage get icPieChart =>
       const AssetGenImage('lib/resources/images/ic_pie_chart.png');
 
+  /// File path: lib/resources/images/ic_twitter.png
+  AssetGenImage get icTwitter =>
+      const AssetGenImage('lib/resources/images/ic_twitter.png');
+
   /// File path: lib/resources/images/ic_vector_design.png
   AssetGenImage get icVectorDesign =>
       const AssetGenImage('lib/resources/images/ic_vector_design.png');
+
+  /// File path: lib/resources/images/ic_youtube.png
+  AssetGenImage get icYoutube =>
+      const AssetGenImage('lib/resources/images/ic_youtube.png');
 
   /// File path: lib/resources/images/img_asset1.png
   AssetGenImage get imgAsset1 =>
@@ -62,9 +94,17 @@ class $LibResourcesImagesGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        icPhoneCall,
+        icEmail,
+        icFacebook,
+        icInstagram,
         icLamp,
+        icLinkedin,
+        icLocation,
         icPieChart,
+        icTwitter,
         icVectorDesign,
+        icYoutube,
         imgAsset1,
         imgAsset2,
         imgAsset3,
